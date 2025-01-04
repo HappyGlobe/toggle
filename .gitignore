@@ -1,0 +1,61 @@
+#### Root folder ####
+
+# Editor/IDE config files
+.vscode/
+.idea/
+.sublime-workspace
+.sublime-project
+
+# Environment variables files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# npm/yarn cache
+.npm/
+.yarn-cache/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+#### Inside src ####
+
+# Ignore folders inside src/
+src/node_modules/
+src/.vscode/
+src/.idea/
+src/dist/
+src/build/
+src/logs/
+src/.env
+src/.env.local
+
+# Ignore caché files
+src/.npm/
+src/.yarn-cache/
+
+# Ignore temp files and backups
+src/*.bak
+src/*.swp
+src/*.swo
+src*~
+
+
